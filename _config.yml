@@ -1,0 +1,41 @@
+remote_theme: pages-themes/cayman@v0.2.0
+
+title: 'AWS Cloud Practitioner Study Notes'
+description: 'If you are preparing for AWS Cloud Practitioner Exam, this guide will help you with quick revision before the exam. I share the notes I used to study and pass exam.'
+show_downloads: false
+
+github:
+  repository_url: '/'
+  owner_url: "https://tejindrakhatri.github.io/"
+  all_certification: 'https://tejindrakhatri.github.io/'
+
+# Set which comment system to use
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider: giscus
+
+# You must install giscus github app before use.(https://github.com/apps/giscus)
+# Make sure all variables are set properly. Check below link for detail.
+# https://giscus.vercel.app/
+giscus:
+  repo:                "Tejindrakhatri/AWS-CLF-CO2-EXAM-QA"
+  repo-id:             ""
+  category:            "Comments"
+  category-id:         ""
+  mapping:             "pathname"
+  data-strict:         "1"
+  reaction-enabled:    "1"
+  theme:               "light"
+  crossorigin:         "anonymous"
+  input-position:      "top"
+  loading:             "lazy"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/AWS-Cloud-Practitioner.png
+  - scope:
+      path: "/sections/*.md"
+    values:
+      link: true
